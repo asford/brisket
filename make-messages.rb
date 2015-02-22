@@ -17,11 +17,11 @@ def get_id (message)
 				$plurals[id] = {
 					message: "#{$1}s"
 				}
-				$plurals["#{$id}@one"] = {
+				$plurals["#{id}@one"] = {
 					message: $1
 				}
 			end
-			return $1
+			$1
 		}
 		.gsub(/[^A-Za-z0-9_@ ]/, '')
 		.gsub(/ +/, '_')
