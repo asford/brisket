@@ -56,10 +56,10 @@ if localedir != '' then
 	}
 
 	# delete unlocalized elements
-	xml.delete_element("/RDF/Description/em:name")
-	xml.delete_element("/RDF/Description/em:description")
-	xml.delete_element("/RDF/Description/em:creator")
-	xml.delete_element("/RDF/Description/em:homepageURL")
+	#xml.delete_element("/RDF/Description/em:name")
+	#xml.delete_element("/RDF/Description/em:description")
+	#xml.delete_element("/RDF/Description/em:creator")
+	#xml.delete_element("/RDF/Description/em:homepageURL")
 end
 
 # strip some attributes
