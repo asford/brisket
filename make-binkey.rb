@@ -110,6 +110,6 @@ if dstfile != '' then
 	print "crypted:\n#{content_crypted}\n" if verbose > 1
 else
 	print "\n*** result ***\n"
-	print content_crypted
+	print "#{content_crypted}\n"
 end
 

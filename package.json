@@ -1,0 +1,21 @@
+{
+  "name": "brisket",
+  "version": "1.0.0",
+  "description": "build scripts for browser extension",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akahuku/brisket.git"
+  },
+  "author": "akahuku@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/akahuku/brisket/issues"
+  },
+  "homepage": "https://github.com/akahuku/brisket",
+  "dependencies": {
+    "libxmljs": "^0.18.0"
+  }
+}

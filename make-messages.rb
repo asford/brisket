@@ -54,7 +54,7 @@ def build_base_message (messages, file)
 			line_number += 1
 		end
 	end
-	return result
+	result
 end
 
 def update_localized_messages (messages)

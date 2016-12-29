@@ -2,3 +2,7 @@
 *~
 Thumbs.db
 desktop.ini
+node_modules/
+!node_modules/Blowfish.js
+!node_modules/SHA1.js
+!node_modules/optparse.js
