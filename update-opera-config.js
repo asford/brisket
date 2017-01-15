@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const OptionParser = require('optparse');
+const OptionParser = require('./lib/optparse');
 const libxml = require('libxmljs');
 
 var dir = '',
