@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const OptionParser = require('./lib/./lib/optparse');
+const OptionParser = require('./lib/optparse');
 const SHA1 = require('./lib/SHA1').SHA1;
 const Blowfish = require('./lib/Blowfish').Blowfish;
 
